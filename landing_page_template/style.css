@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    line-height: 1.6;
+}
+.top-bar {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.nav-links li {
+    cursor: pointer;
+}
+.buy-btn {
+    background: orange;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+}
+.hero {
+    background: url('https://via.placeholder.com/1200x400') center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #333;
+}
+.hero-buttons .cta {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.cta {
+    background: #ee0979;
+    color: white;
+}
+.secondary {
+    background: #fff;
+    color: #ee0979;
+    border: 1px solid #ee0979;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: white;
+    padding: 2rem 1rem;
+}
+.about {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.read-more {
+    background: #ee0979;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+.services {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.card {
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 150px;
+}
